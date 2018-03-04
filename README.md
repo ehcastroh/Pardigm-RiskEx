@@ -4,22 +4,25 @@
 #### Introduction 
 Part 1 of a collaborative project for identifying, processing, predicting and recommending relevant information (e.g. news artilces), to sophisticated traders. 
 
-Project seeks to gather, model and recommend articles relevant to the decision making of asset traders. In particular, this repository is build around the processes required to perform the task of data mining. In particular:
+Project seeks to gather, model and recommend articles relevant to the decision making of asset traders. In particular, this repository is built around the processes required to perform the task of data mining. In particular:
     1) Web Scrapping 
     2) Metadata Extraction
     3) Preprocessing and Writing
 
+
 #### Motivation
 Information is of the utmost importance to traders throughout the world. Services such as Bloomberg's 'Terminal' are an imperative part of any trading house -- as they allow not only for execution of trades, but also for the sharing of information. RiskEx, seeks to build a product that focuses solely on the speed, veracity, value of the information shared. In doing so, we hope to equip traders with immediate and relevant information to their decision making.
+
 
 #### Methodology
 For this project we decided to split our overall scope into steps. This first step focuses solely on data acquisition, validation, cleaning, and preprocessing -- i.e. data mining. Moreover, our efforts for this part of the project are centered around the following:
 
-        1) Variable websource scraping
-        2) Deep level conent extraction (iterating over a single url's pages)
-        3) Filtering of relevant content (user generated filtering)
-        4) Preprocessing of content for modeling purposes
-        5) Ensure robustness and flexibility of process -- so as to handle multiple asset classes
+    1) Variable websource scraping
+    2) Deep level conent extraction (iterating over a single url's pages)
+    3) Filtering of relevant content (user generated filtering)
+    4) Preprocessing of content for modeling purposes
+    5) Ensure robustness and flexibility of process -- so as to handle multiple asset classes
+
 
 ##### Notes on Methodology
 
@@ -32,6 +35,7 @@ For this project we decided to split our overall scope into steps. This first st
 4) Preprocessing of content for modeling purpose. During scraping iterations, our code automatically produces relevant metadata (date, author, keywords, etc.), as well some data preprocessing (remove null values, duplicates, etc.). Moreover, our code extracts content and formats it for further modeling purposes (such as bag-of-words from Natural Language Processing).  
 
 5) Ensure robustness and flexibility of processes: our goal is to make our code into a system of black boxes, thus allowing for exportation into various languages or simple convertion of notebooks into scripts/executables.
+
 
 
 
@@ -71,7 +75,9 @@ Multiple python notebooks (Jupyter) were written in order to carry out project. 
     <name to be included upon completion>
     
     <name to be included upon completion>
-    
+  
+  
+  
    
 
 ### A brief consideration:
