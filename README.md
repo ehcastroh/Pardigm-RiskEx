@@ -1,4 +1,4 @@
-# RiskEx-Data-Mining
+# RiskEx-Data-Scraping
 ## Toward a Better RSS Recomendation System
 
 #### Introduction 
