@@ -1,11 +1,11 @@
-# RiskEx-Data-Scraping
+# RiskEx-Data-Mining
 ## Toward a Better RSS Recomendation System
 
 #### Introduction 
 Part 1 of a collaborative project for identifying, processing, predicting and recommending relevant information (e.g. news artilces), to sophisticated traders. 
 
 Project seeks to gather, model and recommend articles relevant to the decision making of asset traders. In particular, this repository is built around the processes required to perform the task of data mining. In particular:
-    1) Web Scrapping 
+    1) Web Scrapping and/or API utilization
     2) Metadata Extraction
     3) Preprocessing and Writing
 
