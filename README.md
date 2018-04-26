@@ -31,7 +31,7 @@ For this project we decided to split our overall scope into three steps.
 
 
 ### Results and Findings
-'<add text here once we are done modeling and have results on our efforts>'
+<add text here once we are done modeling and have results on our efforts>
 
 ### Next Steps
 Further steps will involve the development of a learning recommender system built around both supervised and unsupervised learning methods. In particular, based on the foundation establish by our team, we believe the following projects could readily be implemented to increase the robustness and capacity of our model.
@@ -65,19 +65,19 @@ Multiple python notebooks (Jupyter) were written in order to carry out project. 
         
 2) Time Series Modeling and Event Detection (in no particular order): 
 
-    '<name to be included upon completion>'	
+    <name to be included upon completion>	
     
-    '<name to be included upon completion>'
+    <name to be included upon completion>
   
-    '<name to be included upon completion>'
+    <name to be included upon completion>
 
 3) Natural Language Processing and Formulations:
 
-    '<name to be included upon completion>'
+    <name to be included upon completion>
     
-    '<name to be included upon completion>'
+    <name to be included upon completion>
     
-    '<name to be included upon completion>'
+    <name to be included upon completion>
   
   
   
