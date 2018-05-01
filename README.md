@@ -65,11 +65,7 @@ Multiple python notebooks (Jupyter) were written in order to carry out project. 
         
 2) Time Series Modeling and Event Detection (in no particular order): 
 
-    \<name to be included upon completion\>	
-    
-    \<name to be included upon completion\>
-  
-    \<name to be included upon completion\>
+    price change marker
 
 3) Natural Language Processing and Formulations:
 
@@ -79,6 +75,13 @@ Multiple python notebooks (Jupyter) were written in order to carry out project. 
     
     \<name to be included upon completion\>
   
+4) Classification:
+
+    \<name to be included upon completion\>
+    
+    \<name to be included upon completion\>
+    
+    \<name to be included upon completion\>
   
   
    
