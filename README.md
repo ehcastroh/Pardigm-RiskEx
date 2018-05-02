@@ -15,7 +15,7 @@ The following represent a collaborative project for identifying, processing, pre
 For this project we decided to split our overall scope into three steps. 
  
 #### I. Data Cleaning
-    1) Web Scraping and/or API utilization
+    1) Web Scrapping and/or API utilization
     2) IMetadata Extraction
     3) Preprocessing and Writing
 
@@ -29,9 +29,6 @@ For this project we decided to split our overall scope into three steps.
     3) Establish a causal relationship between a news even and its effect on the price of bitcoin 
 
 
-
-### Results and Findings
-\<add text here once we are done modeling and have results on our efforts\>
 
 ### Next Steps
 Further steps will involve the development of a learning recommender system built around both supervised and unsupervised learning methods. In particular, based on the foundation establish by our team, we believe the following projects could readily be implemented to increase the robustness and capacity of our model.
@@ -53,7 +50,7 @@ Further steps will involve the development of a learning recommender system buil
 ## Start Here:
 Python was used for all data gathering, cleaning, and modeling purposes.
 
-Multiple python notebooks (Jupyter) were written in order to carry out project. To execute our procedure execute the following as stated:
+Multiple python notebooks (Jupyter) were written in order to carry out project. To execute our procedure follow the following in order:
 
 1) Scrapping (in order):
 
@@ -63,19 +60,21 @@ Multiple python notebooks (Jupyter) were written in order to carry out project. 
     
     many_df_to_one(3o3)
         
-2) Time Series Modeling and Event Detection (in order): 
+2) Time Series Modeling and Event Detection (in no particular order): 
 
-    price_change_marker
+    <name to be included upon completion>	
     
-    filter_news_by_marker
+    <name to be included upon completion>
+  
+    <name to be included upon completion>
 
 3) Natural Language Processing and Formulations:
 
-    \<name to be included upon completion\>
+    <name to be included upon completion>
     
-    \<name to be included upon completion\>
+    <name to be included upon completion>
     
-    \<name to be included upon completion\>
+    <name to be included upon completion>
   
   
   
