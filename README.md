@@ -14,18 +14,11 @@ The following represents a collaborative project for identifying, processing, pr
 ### Methodology
 For this project we decided to split our overall scope into three steps. 
  
-<<<<<<< HEAD
 #### I. Data Collection
     1) Web Scraping and API utilization for pulling news articles
     2) IMetadata Extraction from the articles
     3) Preprocessing and cleaning the articles
     4) Collecting and cleaning Bitcoin price data
-=======
-#### I. Data Cleaning
-    1) Web Scraping and/or API utilization
-    2) IMetadata Extraction
-    3) Preprocessing and Writing
->>>>>>> da0d01d9f43d3b45986d8eb019d745fd682eb5de
 
 #### II. Data Processing
     1) Filtering of relevant news content with relevant keywords
@@ -72,35 +65,17 @@ Multiple python notebooks (Jupyter) were written in order to carry out project. 
     
     many_df_to_one (3/3)
         
-2) Time Series Modeling and Event Detection (in order): 
+2) Time Series Modeling and Event Detection (in no particular order): 
 
-<<<<<<< HEAD
     price change marker
-=======
-    price_change_marker	
-    
-    filter_news_by_marker
->>>>>>> da0d01d9f43d3b45986d8eb019d745fd682eb5de
 
-3) Natural Language Processing and Formulations (in order):
+3) Natural Language Processing and Formulations:
 
-<<<<<<< HEAD
     \<name to be included upon completion\>
     
     \<name to be included upon completion\>
     
     \<name to be included upon completion\>
-=======
-    clean_articles_final(1o2)
-    
-    clean_articles_final(2o2)
-     
- 4) Classificatin and Modeling:
-
-    Word2Vec_and_KMeans_clustering
-    
-    Final_Classification
->>>>>>> da0d01d9f43d3b45986d8eb019d745fd682eb5de
   
 4) Classification:
 
