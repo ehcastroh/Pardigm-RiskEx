@@ -1,18 +1,19 @@
-# RiskEx NewsBot Plugin - The Impact of News on Bitcoin Price
-## Toward a Better News Recomendation System for Traders
+# RiskEx-News and Their Effect on Bitcoin Price
+## Toward a Better RSS Recomendation System
 
 
 
 ### Introduction and Motivation
 
-News events are of the utmost importance to traders who need to track the price of an asset. Some news events -- such as press releases -- have been found to represent a potential explanation for up to 24% of an asset's price movements. We seek to understand and classify what causes a news event to have a statistically significant effect on price. In particular, we aim to implement machine learning (ML) processes, and Natural Language Processing (NLP) techniques to extract what traders intuitively know when they choose which news articles/publications/news-beats to listen to, and consequently base their trading decisions on. We want to help traders discover and read the right news.
+News events continue to be of outmost importance during the price discovery process of any asset. Some news events -- such as press releases -- have been found to represent a potential explanation for up to 24% of an asset's price movements. We seek to understand and classify what causes a news event to have a statistically significant effect on price. In particular, we aim to implement machine learning (ML) processes, and Natural Language Processing (NLP) techniques to extract what traders intuitively know when they choose which news articles/publications/news-beats to listen to, and consequently base their trading decisions on. 
 
-The following represents a collaborative project for identifying, processing, predicting, and recommending relevant information from news events to sophisticated traders on the RiskEx platform.
+The following represent a collaborative project for identifying, processing, predicting, and recommending relevant information from news events to sophisticated traders.
 
 
 
 ### Methodology
 For this project we decided to split our overall scope into three steps. 
+
  
 #### I. Data Collection
     1) Web Scraping and API utilization for pulling news articles
@@ -52,41 +53,39 @@ Further steps will involve the development of a learning recommender system buil
 
 
 
+
 ## Start Here:
 Python was used for all data gathering, cleaning, and modeling purposes.
 
-Multiple python notebooks (Jupyter) were written in order to carry out project. To execute our procedure execute the following as stated:
+Multiple python notebooks (Jupyter) were written in order to carry out project. To execute our procedure follow the following in order:
 
-1) Scraping (in order):
+1) Scrapping (in order):
 
-    news_to_features (1/3)
+    news_to_features(1o3)
     
-    url_to_contents (2/3)
+    url_to_contents(2o3)
     
-    many_df_to_one (3/3)
+    many_df_to_one(3o3)
         
-2) Time Series Modeling and Event Detection (in no particular order): 
+2) Time Series Modeling and Event Detection (in order): 
 
-    price change marker
+    price_change_marker	
+    
+    filter_news_by_marker
 
-3) Natural Language Processing and Formulations:
+3) Natural Language Processing and Formulations (in order):
 
-    \<name to be included upon completion\>
+    clean_articles_final(1o2)
     
-    \<name to be included upon completion\>
-    
-    \<name to be included upon completion\>
-  
-4) Classification:
+    clean_articles_final(2o2)
+     
+ 4) Classificatin and Modeling:
 
-    \<name to be included upon completion\>
+    Word2Vec_and_KMeans_clustering
     
-    \<name to be included upon completion\>
-    
-    \<name to be included upon completion\>
+    Final_Classification
   
   
-   
 
 ### A brief consideration:
 ##### The majority of labor associated with this project was consumed by data gathering and cleaning. Should you choose to expand on our efforts, please reach out to any member directly and we can share the preprocessed and cleaned data sets we used to train our models. Or, if you find a better, faster way to get and clean data, go with that (and let us know!)
