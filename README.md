@@ -13,20 +13,23 @@ The following represent a collaborative project for identifying, processing, pre
 
 ### Methodology
 For this project we decided to split our overall scope into three steps. 
- 
-#### I. Data Cleaning
-    1) Web Scrapping and/or API utilization
-    2) IMetadata Extraction
-    3) Preprocessing and Writing
 
-#### II. NLP Modeling and Time Series Analysis
-    1) Filtering of relevant content 
-    2) Preprocessing of content for modeling purposes
+ 
+#### I. Data Collection
+    1) Web Scraping and API utilization for pulling news articles
+    2) IMetadata Extraction from the articles
+    3) Preprocessing and cleaning the articles
+    4) Collecting and cleaning Bitcoin price data
+
+#### II. Data Processing
+    1) Filtering of relevant news content with relevant keywords
+    2) Preprocessing of content for modeling purposes (vectorization, text cleaning etc.)
 
 #### III. Analysize and Classify
-    1) Perform Clustering Analysis
+    1) Perform Clustering Analysis on articles
     2) Classify events based on sentiment analysis
-    3) Establish a causal relationship between a news even and its effect on the price of bitcoin 
+    3) Identify significant price movements through event study methodology
+    4) Establish a causal relationship between a news event and its effect on the price of Bitcoin
 
 
 
@@ -34,26 +37,27 @@ For this project we decided to split our overall scope into three steps.
 \<add text here once we are done modeling and have results on our efforts\>
 
 ### Next Steps
-Further steps will involve the development of a learning recommender system built around both supervised and unsupervised learning methods. In particular, based on the foundation establish by our team, we believe the following projects could readily be implemented to increase the robustness and capacity of our model.
+Further steps will involve the development of a learning recommender system built around both supervised and unsupervised learning methods. In particular, based on the foundation established by our team, we believe the following projects could be implemented to increase the strength and capacity of our model.
 
     1. Acheive better granularity of data - create series of crawlers that extract the desired granular data.
-       1.a Examples include: pricing data, google trend data, etc.  
+       1.a Examples include: pricing data, Google Trends data, etc.  
     2. Create two tiers of data acquisition processes.
        2.a Broad spectrum crawlers should be scheduled to stay up to data with current events, while minimizing load. 
-       2.b Event driven crawlers should be developed around predictive modeling and/or event detection.
+       2.b Event driven crawlers should be developed around predictive modeling and/or event detection when a significant price movement occurs.
     3. Implement a predictive pricing model for asset classes. 
        3.a Use pricing predictions to trigger searches for relevant articles, and evaluate pricing and recommender models.
-       3.b Predictive pricing models could also be used for arbitrage purposes, and optimization of LOB processes.
+       3.b Predictive pricing models could also be used for arbitrage purposes, and optimization of business processes.
     4. Implement a distributive compuatition architecture
        4.a In order to implement just-in-time analysis, future team will nead to export processes to cloud.
     5. Increase the quality of prediction by instituting a magnitude/directional component to our time series modeling.
 
 
 
+
 ## Start Here:
 Python was used for all data gathering, cleaning, and modeling purposes.
 
-Multiple python notebooks (Jupyter) were written in order to carry out project. To execute our procedure execute the following as stated:
+Multiple python notebooks (Jupyter) were written in order to carry out project. To execute our procedure follow the following in order:
 
 1) Scrapping (in order):
 
@@ -63,28 +67,25 @@ Multiple python notebooks (Jupyter) were written in order to carry out project. 
     
     many_df_to_one(3o3)
         
-2) Time Series Modeling and Event Detection (in no particular order): 
+2) Time Series Modeling and Event Detection (in order): 
 
-    price change marker
+    price_change_marker	
+    
+    filter_news_by_marker
 
-3) Natural Language Processing and Formulations:
+3) Natural Language Processing and Formulations (in order):
 
-    \<name to be included upon completion\>
+    clean_articles_final(1o2)
     
-    \<name to be included upon completion\>
-    
-    \<name to be included upon completion\>
-  
-4) Classification:
+    clean_articles_final(2o2)
+     
+ 4) Classificatin and Modeling:
 
-    \<name to be included upon completion\>
+    Word2Vec_and_KMeans_clustering
     
-    \<name to be included upon completion\>
-    
-    \<name to be included upon completion\>
+    Final_Classification
   
   
-   
 
 ### A brief consideration:
-##### Majority of labor associated with this project is consumed by data gathering and clean up. Should you choose to expand on our efforts, please reach out to any member directly and we can share the preprocessed and cleaned data sets we used to train our models. 
+##### The majority of labor associated with this project was consumed by data gathering and cleaning. Should you choose to expand on our efforts, please reach out to any member directly and we can share the preprocessed and cleaned data sets we used to train our models. Or, if you find a better, faster way to get and clean data, go with that (and let us know!)
